@@ -16,5 +16,7 @@ To compile the program in Reference Tree (RFT.c/RFT_acc.c), using gcc run:
 gcc -Wall -O3 -o program program.c
 ```
 i.e.:
+```
 gcc -Wall -O3 -o oRFT RFT.c
 gcc -Wall -O3 -o oRFT_acc RFT_acc.c
+```
