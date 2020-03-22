@@ -32,19 +32,18 @@ Reference Tree Approach is developed in C Language. It contains two phases, prep
    ```
 
 3. Run the examples in Dataset
-   3.1. The Drosophila DNA sequence example
-        RFT:
-        ```
-        ./oRFT Dataset/text/Drosophila_Alphabet04_1M Dataset/pattern/Drosophila_patterns/len_0100/A04_1M_l0100_r1000_20_0001 6 10
-        ```
-        RFT_acc
-        ```
-        ./oRFT_acc Dataset/text/Drosophila_Alphabet04_1M Dataset/pattern/Drosophila_patterns/len_0100/A04_1M_l0100_r1000_20_0001 6 10
-   
-        ```
-        where 6 is parameter l and 10 is parameter k (user pre-specified parameters)
-   3.2. The Bible English example
-        ```
-        ./oRFT Dataset/text/Bible_Alphabet63_4M Dataset/pattern/Bible_patterns/len_0100/A63_4M_l0100_r1000_20_0001 9 100
-        ```
-        where 9 is parameter l and 100 is parameter k (user pre-specified parameters)
+   - The Drosophila DNA sequence example
+     RFT:
+     ```
+     ./oRFT Dataset/text/Drosophila_Alphabet04_1M Dataset/pattern/Drosophila_patterns/len_0100/A04_1M_l0100_r1000_20_0001 6 10
+     ```
+     RFT_acc
+     ```
+     ./oRFT_acc Dataset/text/Drosophila_Alphabet04_1M Dataset/pattern/Drosophila_patterns/len_0100/A04_1M_l0100_r1000_20_0001 6 10
+     ```
+     where 6 is parameter l and 10 is parameter k (user pre-specified parameters)
+   - The Bible English example
+     ```
+     ./oRFT Dataset/text/Bible_Alphabet63_4M Dataset/pattern/Bible_patterns/len_0100/A63_4M_l0100_r1000_20_0001 9 100
+     ```
+     where 9 is parameter l and 100 is parameter k (user pre-specified parameters)
