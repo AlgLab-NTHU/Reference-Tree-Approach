@@ -38,9 +38,9 @@ Reference Tree Approach is developed in C Language. It contains two phases, prep
        ```
        ./oRFT Dataset/text/Drosophila_Alphabet04_1M Dataset/pattern/Drosophila_patterns/len_0100/A04_1M_l0100_r1000_20_0001 6 10
        ```
-       RFT_acc (parameter l is 6 and parameter k is 10)
+     - RFT_acc (parameter l is 6 and parameter k is 10)
        ```
-     - ./oRFT_acc Dataset/text/Drosophila_Alphabet04_1M Dataset/pattern/Drosophila_patterns/len_0100/A04_1M_l0100_r1000_20_0001 6 10
+       ./oRFT_acc Dataset/text/Drosophila_Alphabet04_1M Dataset/pattern/Drosophila_patterns/len_0100/A04_1M_l0100_r1000_20_0001 6 10
        ```
      - sdsl_csa_S
        ```
