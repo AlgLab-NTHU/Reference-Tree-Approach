@@ -11,6 +11,7 @@ Reference Tree Approach is developed in C Language. It contains two phases, prep
 (Please consider [SDSL 2.0](https://github.com/simongog/sdsl-lite) to install the library.)
 
 # Getting Started
+1. Reference Tree Approach
 To compile the program in Reference Tree (RFT.c/RFT_acc.c) using gcc run:
 ```
 gcc -Wall -O3 -o program program.c
