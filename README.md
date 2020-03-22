@@ -10,7 +10,7 @@ The GNU Compiler Collection - 4.8.5 and above
 *The programs in SDSL-lite directory need SDSL-lite (SDSL 2.0) library.
 (Please consider https://github.com/simongog/sdsl-lite to install the library.)
 
-#Getting Started
+# Getting Started
 To compile the program in Reference Tree (RFT.c/RFT_acc.c), using gcc run:
 gcc -Wall -O3 -o program program.c
 i.e.:
