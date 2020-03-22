@@ -6,7 +6,7 @@ Reference Tree Approach is developed in C Language. It contains two phases, prep
 
 # Requirements
 - 64-bit operating system
-- The GNU Compiler Collection - 4.8.5 and above
+- The GNU Compiler Collection - 4.8.5 and above version
 
 *The programs in SDSL-Lite directory need SDSL-lite (SDSL 2.0) library.
 (Please consider [SDSL 2.0](https://github.com/simongog/sdsl-lite) to install the library.)
