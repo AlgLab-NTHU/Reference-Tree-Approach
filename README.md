@@ -26,6 +26,25 @@ Reference Tree Approach is developed in C Language. It contains two phases, prep
    ```
    g++ -std=c++11 -O3 -DNDEBUG -I ~/include -L ~/lib program.cpp -o program -lsdsl -ldivsufsort -ldivsufsort64
    ```
+   i.e.:
+   ```
+   g++ -std=c++11 -O3 -DNDEBUG -I ~/include -L ~/lib sdsl_csa_S.cpp -o o_sdsl_csa_S -lsdsl -ldivsufsort -ldivsufsort64
+   ```
 
 3. Run the examples in Dataset
-
+   3.1. The Drosophila DNA sequence example
+        RFT:
+        ```
+        ./oRFT Dataset/text/Drosophila_Alphabet04_1M Dataset/pattern/Drosophila_patterns/len_0100/A04_1M_l0100_r1000_20_0001 6 10
+        ```
+        RFT_acc
+        ```
+        ./oRFT_acc Dataset/text/Drosophila_Alphabet04_1M Dataset/pattern/Drosophila_patterns/len_0100/A04_1M_l0100_r1000_20_0001 6 10
+   
+        ```
+        where 6 is parameter l and 10 is parameter k (user pre-specified parameters)
+   3.2. The Bible English example
+        ```
+        ./oRFT Dataset/text/Bible_Alphabet63_4M Dataset/pattern/Bible_patterns/len_0100/A63_4M_l0100_r1000_20_0001 9 100
+        ```
+        where 9 is parameter l and 100 is parameter k (user pre-specified parameters)
