@@ -21,3 +21,11 @@ Reference Tree Approach is developed in C Language. It contains two phases, prep
     gcc -Wall -O3 -o oRFT RFT.c
     gcc -Wall -O3 -o oRFT_acc RFT_acc.c
     ```
+
+2. The algorithms in SDSL-Lite (CSA-S, CSA-GGV, SA, CST-OFG, CST-RNO and CST-S)
+   ```
+   g++ -std=c++11 -O3 -DNDEBUG -I ~/include -L ~/lib program.cpp -o program -lsdsl -ldivsufsort -ldivsufsort64
+   ```
+
+3. Run the examples in Dataset
+
