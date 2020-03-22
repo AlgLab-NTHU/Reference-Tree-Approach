@@ -12,7 +12,7 @@ The GNU Compiler Collection - 4.8.5 and above
 
 # Getting Started
 To compile the program in Reference Tree (RFT.c/RFT_acc.c), using gcc run:
-gcc -Wall -O3 -o program program.c
+.bg-gray gcc -Wall -O3 -o program program.c
 i.e.:
 gcc -Wall -O3 -o oRFT RFT.c
 gcc -Wall -O3 -o oRFT_acc RFT_acc.c
