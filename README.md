@@ -13,6 +13,7 @@ Reference Tree Approach is developed in C Language. It contains two phases, prep
 
 # Getting Started
 1. Reference Tree Approach
+
     To compile the program in Reference Tree (RFT.c/RFT_acc.c) using gcc run:
     ```
     gcc -Wall -O3 -o program program.c
