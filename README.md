@@ -61,3 +61,6 @@ Reference Tree Approach is developed in C Language. It contains two phases, prep
        ./o_sdsl_csa_S Dataset/text/Bible_Alphabet63_4M Dataset/pattern/Bible_patterns/len_0100/A63_4M_l0100_r1000_20_0001
        ```
    The format of output message is "*x*(*y*)," where *x* is the position of the occurrence and *y* is the *y*th pattern.
+
+# Author
+  - Yi Kung Hsieh
