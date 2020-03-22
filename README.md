@@ -5,7 +5,7 @@ Reference Tree Approach is for solving the Exact Multiple Pattern Matching Probl
 Reference Tree Approach is developed in C Language. It contains two phases, preprocessing and searching phases. In preprocessing phase, all the substrings with length l (the user pre-specified parameter) of text string will be constructed into a reference tree. In searching phase, the search can find the possible occurrences of pattern(s) in text string via the guiding of the reference tree and then verify possible occurrences to obtain the result.
 
 # Requirements
-The GNU Compiler Collection - 4.8.5 and above
+- The GNU Compiler Collection - 4.8.5 and above
 
 *The programs in SDSL-Lite directory need SDSL-lite (SDSL 2.0) library.
 (Please consider [SDSL 2.0](https://github.com/simongog/sdsl-lite) to install the library.)
