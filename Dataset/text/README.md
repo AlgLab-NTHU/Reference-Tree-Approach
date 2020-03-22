@@ -10,7 +10,7 @@
 
 - English text: Bible_Alphabet63_4M
 
-  The Bible (Old Testament) is download from [String Matching Researching Tool](https://www.dmi.unict.it/~faro/smart/references.php)(SMART).
+  The Bible (Old Testament) is download from [String Matching Researching Tool](https://www.dmi.unict.it/~faro/smart/references.php) (SMART).
   The length of the strings in this version is about 4.04M.
   (The size of alphabet of Bible_Alphabet63_4M is 63.)
 
