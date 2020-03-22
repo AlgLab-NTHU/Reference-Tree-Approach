@@ -11,7 +11,7 @@ The GNU Compiler Collection - 4.8.5 and above
 (Please consider https://github.com/simongog/sdsl-lite to install the library.)
 
 # Getting Started
-To compile the program in Reference Tree (RFT.c/RFT_acc.c), using gcc run:
+To compile the program in Reference Tree (RFT.c/RFT_acc.c) using gcc run:
 ```
 gcc -Wall -O3 -o program program.c
 ```
