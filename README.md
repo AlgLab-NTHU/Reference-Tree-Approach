@@ -34,30 +34,30 @@ Reference Tree Approach is developed in C Language. It contains two phases, prep
 3. Run the examples in Dataset
    - The Drosophila DNA sequence example
    
-     RFT (parameter l is 6 and parameter k is 10)
-     ```
-     ./oRFT Dataset/text/Drosophila_Alphabet04_1M Dataset/pattern/Drosophila_patterns/len_0100/A04_1M_l0100_r1000_20_0001 6 10
-     ```
-     RFT_acc (parameter l is 6 and parameter k is 10)
-     ```
-     ./oRFT_acc Dataset/text/Drosophila_Alphabet04_1M Dataset/pattern/Drosophila_patterns/len_0100/A04_1M_l0100_r1000_20_0001 6 10
-     ```
-     sdsl_csa_S
-     ```
-     ./o_sdsl_csa_S Dataset/text/Drosophila_Alphabet04_1M Dataset/pattern/Drosophila_patterns/len_0100/A04_1M_l0100_r1000_20_0001
-     ```
+     - RFT (parameter l is 6 and parameter k is 10)
+       ```
+       ./oRFT Dataset/text/Drosophila_Alphabet04_1M Dataset/pattern/Drosophila_patterns/len_0100/A04_1M_l0100_r1000_20_0001 6 10
+       ```
+       RFT_acc (parameter l is 6 and parameter k is 10)
+       ```
+     - ./oRFT_acc Dataset/text/Drosophila_Alphabet04_1M Dataset/pattern/Drosophila_patterns/len_0100/A04_1M_l0100_r1000_20_0001 6 10
+       ```
+     - sdsl_csa_S
+       ```
+       ./o_sdsl_csa_S Dataset/text/Drosophila_Alphabet04_1M Dataset/pattern/Drosophila_patterns/len_0100/A04_1M_l0100_r1000_20_0001
+       ```
    - The Bible English example
    
-     RFT (parameter l is 9 and parameter k is 100)
-     ```
-     ./oRFT Dataset/text/Bible_Alphabet63_4M Dataset/pattern/Bible_patterns/len_0100/A63_4M_l0100_r1000_20_0001 9 100
-     ```
-     RFT_acc (parameter l is 9 and parameter k is 100)
-     ```
-     ./oRFT_acc Dataset/text/Bible_Alphabet63_4M Dataset/pattern/Bible_patterns/len_0100/A63_4M_l0100_r1000_20_0001 9 100
-     ```
-     sdsl_csa_S
-     ```
-     ./o_sdsl_csa_S Dataset/text/Bible_Alphabet63_4M Dataset/pattern/Bible_patterns/len_0100/A63_4M_l0100_r1000_20_0001
-     ```
+     - RFT (parameter l is 9 and parameter k is 100)
+       ```
+       ./oRFT Dataset/text/Bible_Alphabet63_4M Dataset/pattern/Bible_patterns/len_0100/A63_4M_l0100_r1000_20_0001 9 100
+       ```
+     - RFT_acc (parameter l is 9 and parameter k is 100)
+       ```
+       ./oRFT_acc Dataset/text/Bible_Alphabet63_4M Dataset/pattern/Bible_patterns/len_0100/A63_4M_l0100_r1000_20_0001 9 100
+       ```
+     - sdsl_csa_S
+       ```
+       ./o_sdsl_csa_S Dataset/text/Bible_Alphabet63_4M Dataset/pattern/Bible_patterns/len_0100/A63_4M_l0100_r1000_20_0001
+       ```
      
