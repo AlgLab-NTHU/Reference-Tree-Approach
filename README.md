@@ -33,7 +33,7 @@ Reference Tree Approach is developed in C Language. It contains two phases, prep
 
 3. Run the examples in Dataset
    - The Drosophila DNA sequence example
-     RFT:
+     RFT
      ```
      ./oRFT Dataset/text/Drosophila_Alphabet04_1M Dataset/pattern/Drosophila_patterns/len_0100/A04_1M_l0100_r1000_20_0001 6 10
      ```
