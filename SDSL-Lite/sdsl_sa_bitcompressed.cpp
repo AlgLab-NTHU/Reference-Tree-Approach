@@ -83,7 +83,7 @@ int main (int argc, char **argv)
         auto occs = locate(csa, pattern[i].begin(), pattern[i].end());
         // sort the result by positions (in order to fit the output format of reference tree approach)
         // this sort would not influence the searching time (under the normal case that occurrences for this pattern are not too many)
-        sort(occs.begin(), occs.end());
+        // sort(occs.begin(), occs.end());
         // output the result
         for (j = 0; j < occs.size(); j++)
             cout << occs[j] + lengthPattern[i] << "(" << i + 1 << "),";
