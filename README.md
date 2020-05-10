@@ -33,8 +33,8 @@ Reference Tree Approach is developed in C Language. It contains two phases, prep
    g++ -std=c++11 -O3 -DNDEBUG -I ~/include -L ~/lib sdsl_csa_S.cpp -o o_sdsl_csa_S -lsdsl -ldivsufsort -ldivsufsort64
    ```
 
-3. Run the examples in Dataset
-   - The Drosophila DNA sequence example
+3. Run the examples in Dataset (Note that this versions of RFT and RFT_acc only utilize one computer word. That is, l cannot be greater than 21 for DNA sequence and 9 for Bible text.)
+   - The Drosophila DNA sequence example 
    
      - RFT (parameter l is 6 and parameter k is 10)
        ```
