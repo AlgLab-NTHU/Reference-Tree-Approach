@@ -148,9 +148,9 @@ int main (int argc, char **argv)
     parameterL = atoi (argv[3]);
     parameterK = atoi (argv[4]);
 
-    if (parameterL < minimumLengthOfPattern)
+    if (parameterL > minimumLengthOfPattern)
     {
-        fprintf (stderr, "Error! The input parameter l is smaller than the minimum length among patterns!\n");
+        fprintf (stderr, "Error! The input parameter l is greater than the minimum length among patterns!\n");
         free (lengthOfPattern);
         for (i = 0; i != numberOfPattern; i++)
         {
